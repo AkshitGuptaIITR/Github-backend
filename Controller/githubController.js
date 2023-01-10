@@ -11,9 +11,7 @@ exports.getRepsitories = catchAsync(async (req, res, next) => {
 
   if (!userName) return new AppError("Please provide user name", 400);
 
-  const response = await octokit.request(`GET /users/${userName}/repos`, {
-    per_page: 1,
-  });
+  const response = await octokit.request(`GET /users/${userName}/repos`, {});
 
   res.status(200).json({
     status: "success",
