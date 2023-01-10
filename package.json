@@ -1,5 +1,5 @@
 {
-  "name": "crm-back-end",
+  "name": "Github-backend",
   "version": "1.0.0",
   "description": "This is the back-end for CRM which will maintain the maufacturing process, stock management for jewelry and stones.",
   "main": "server.js",
@@ -8,9 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "jewelry",
-    "stones",
-    "employee"
+    "backend",
+    "nodejs"
   ],
   "author": "Akshit",
   "dependencies": {
